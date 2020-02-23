@@ -1,0 +1,6 @@
+module Pods_MovaTest {
+  umbrella header "Pods-MovaTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
