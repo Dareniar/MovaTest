@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E246B152401702500A1A03E /* UIImage+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E246B142401702500A1A03E /* UIImage+GIF.swift */; };
+		5E2EAA7424014A82008687D4 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2EAA7324014A82008687D4 /* RealmManager.swift */; };
+		5E2EAA7624014AC1008687D4 /* PhotoQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2EAA7524014AC1008687D4 /* PhotoQuery.swift */; };
 		5EF97ABE24000E3E00F450F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97ABD24000E3E00F450F3 /* AppDelegate.swift */; };
-		5EF97AC024000E3E00F450F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97ABF24000E3E00F450F3 /* SceneDelegate.swift */; };
-		5EF97AC224000E3E00F450F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97AC124000E3E00F450F3 /* ViewController.swift */; };
-		5EF97AC524000E3E00F450F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF97AC324000E3E00F450F3 /* Main.storyboard */; };
+		5EF97AC224000E3E00F450F3 /* PhotoSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97AC124000E3E00F450F3 /* PhotoSearchVC.swift */; };
 		5EF97AC724000E4100F450F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF97AC624000E4100F450F3 /* Assets.xcassets */; };
 		5EF97ACA24000E4100F450F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF97AC824000E4100F450F3 /* LaunchScreen.storyboard */; };
+		5EF97AD224001B6200F450F3 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97AD124001B6200F450F3 /* PhotoCell.swift */; };
+		5EF97AD4240039B800F450F3 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97AD3240039B800F450F3 /* NetworkingManager.swift */; };
+		5EF97AD62400434800F450F3 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97AD52400434800F450F3 /* ImageDownloader.swift */; };
+		680FBF75E1507309FC17431D /* libPods-MovaTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9671581D67A3F7D3D95402CC /* libPods-MovaTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		378F0EE2402E11BA45CF8A17 /* Pods-MovaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovaTest.release.xcconfig"; path = "Target Support Files/Pods-MovaTest/Pods-MovaTest.release.xcconfig"; sourceTree = "<group>"; };
+		5E246B142401702500A1A03E /* UIImage+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+GIF.swift"; sourceTree = "<group>"; };
+		5E2EAA7324014A82008687D4 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		5E2EAA7524014AC1008687D4 /* PhotoQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoQuery.swift; sourceTree = "<group>"; };
 		5EF97ABA24000E3E00F450F3 /* MovaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF97ABD24000E3E00F450F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5EF97ABF24000E3E00F450F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EF97AC124000E3E00F450F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5EF97AC424000E3E00F450F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EF97AC124000E3E00F450F3 /* PhotoSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchVC.swift; sourceTree = "<group>"; };
 		5EF97AC624000E4100F450F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EF97AC924000E4100F450F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EF97ACB24000E4100F450F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EF97AD124001B6200F450F3 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		5EF97AD3240039B800F450F3 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		5EF97AD52400434800F450F3 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		8CDC7DB1A5211C399715E1AD /* Pods-MovaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovaTest.debug.xcconfig"; path = "Target Support Files/Pods-MovaTest/Pods-MovaTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9671581D67A3F7D3D95402CC /* libPods-MovaTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovaTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680FBF75E1507309FC17431D /* libPods-MovaTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E246B102401637E00A1A03E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E2EAA7524014AC1008687D4 /* PhotoQuery.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E246B112401638500A1A03E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EF97AD124001B6200F450F3 /* PhotoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E246B12240163A000A1A03E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5EF97AC124000E3E00F450F3 /* PhotoSearchVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5E246B13240163D200A1A03E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EF97AD52400434800F450F3 /* ImageDownloader.swift */,
+				5EF97AD3240039B800F450F3 /* NetworkingManager.swift */,
+				5E2EAA7324014A82008687D4 /* RealmManager.swift */,
+				5E246B142401702500A1A03E /* UIImage+GIF.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		5EF97AB124000E3E00F450F3 = {
 			isa = PBXGroup;
 			children = (
 				5EF97ABC24000E3E00F450F3 /* MovaTest */,
 				5EF97ABB24000E3E00F450F3 /* Products */,
+				FE83DE799A56A13BAC0F5928 /* Pods */,
+				E7650425F6F57CE3B901018E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +107,32 @@
 			isa = PBXGroup;
 			children = (
 				5EF97ABD24000E3E00F450F3 /* AppDelegate.swift */,
-				5EF97ABF24000E3E00F450F3 /* SceneDelegate.swift */,
-				5EF97AC124000E3E00F450F3 /* ViewController.swift */,
-				5EF97AC324000E3E00F450F3 /* Main.storyboard */,
-				5EF97AC624000E4100F450F3 /* Assets.xcassets */,
+				5E246B102401637E00A1A03E /* Model */,
+				5E246B112401638500A1A03E /* View */,
+				5E246B12240163A000A1A03E /* Controller */,
+				5E246B13240163D200A1A03E /* Supporting Files */,
 				5EF97AC824000E4100F450F3 /* LaunchScreen.storyboard */,
+				5EF97AC624000E4100F450F3 /* Assets.xcassets */,
 				5EF97ACB24000E4100F450F3 /* Info.plist */,
 			);
 			path = MovaTest;
+			sourceTree = "<group>";
+		};
+		E7650425F6F57CE3B901018E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9671581D67A3F7D3D95402CC /* libPods-MovaTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE83DE799A56A13BAC0F5928 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CDC7DB1A5211C399715E1AD /* Pods-MovaTest.debug.xcconfig */,
+				378F0EE2402E11BA45CF8A17 /* Pods-MovaTest.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EF97ACE24000E4100F450F3 /* Build configuration list for PBXNativeTarget "MovaTest" */;
 			buildPhases = (
+				9DF871DBD09C5356FB75FB31 /* [CP] Check Pods Manifest.lock */,
 				5EF97AB624000E3E00F450F3 /* Sources */,
 				5EF97AB724000E3E00F450F3 /* Frameworks */,
 				5EF97AB824000E3E00F450F3 /* Resources */,
@@ -127,34 +196,55 @@
 			files = (
 				5EF97ACA24000E4100F450F3 /* LaunchScreen.storyboard in Resources */,
 				5EF97AC724000E4100F450F3 /* Assets.xcassets in Resources */,
-				5EF97AC524000E3E00F450F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DF871DBD09C5356FB75FB31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5EF97AB624000E3E00F450F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EF97AC224000E3E00F450F3 /* ViewController.swift in Sources */,
+				5E2EAA7624014AC1008687D4 /* PhotoQuery.swift in Sources */,
+				5EF97AC224000E3E00F450F3 /* PhotoSearchVC.swift in Sources */,
+				5EF97AD62400434800F450F3 /* ImageDownloader.swift in Sources */,
+				5EF97AD4240039B800F450F3 /* NetworkingManager.swift in Sources */,
+				5EF97AD224001B6200F450F3 /* PhotoCell.swift in Sources */,
 				5EF97ABE24000E3E00F450F3 /* AppDelegate.swift in Sources */,
-				5EF97AC024000E3E00F450F3 /* SceneDelegate.swift in Sources */,
+				5E246B152401702500A1A03E /* UIImage+GIF.swift in Sources */,
+				5E2EAA7424014A82008687D4 /* RealmManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5EF97AC324000E3E00F450F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EF97AC424000E3E00F450F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5EF97AC824000E4100F450F3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +372,7 @@
 		};
 		5EF97ACF24000E4100F450F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDC7DB1A5211C399715E1AD /* Pods-MovaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +385,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dareniar.MovaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5EF97AD024000E4100F450F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378F0EE2402E11BA45CF8A17 /* Pods-MovaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dareniar.MovaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
